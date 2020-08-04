@@ -2922,7 +2922,8 @@ input, select, textarea {
 		color: rgba(255, 255, 255, 0.75);
 		background-attachment: fixed,							fixed,							fixed;
 		background-image: url("images/rainy2.png");
-		background-position: top left,						center center,					center center;
+    background-position: top left,						center center,					center center;
+    background-position: 0 -400px;
 		background-size: auto,							cover,							cover;
 		overflow: hidden;
 		position: relative;
