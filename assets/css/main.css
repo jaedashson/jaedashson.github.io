@@ -3524,3 +3524,9 @@ input, select, textarea {
 			}
 
 	}
+
+/* My customizations */
+
+.icons-header {
+  margin-top: 30px;
+}
