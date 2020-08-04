@@ -3531,3 +3531,13 @@ input, select, textarea {
 .icons-header {
   margin-top: 30px;
 }
+
+#portrait {
+  width: 50%;
+}
+
+#about-me {
+  /* display: block; */
+  /* margin-left: auto; */
+  /* margin-right: auto; */
+}
