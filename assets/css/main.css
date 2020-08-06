@@ -2819,7 +2819,7 @@ input, select, textarea {
 /* Main */
 
 	.main {
-		padding: 6em 0 4em 0 ;
+		padding: 6em 0 0 0 ;
 	}
 
 		.main.style1 {
@@ -3528,18 +3528,12 @@ input, select, textarea {
 
 /* My customizations */
 
-.icons-header {
+#icons-header {
   margin-top: 30px;
 }
 
 #portrait {
   width: 75%;
-}
-
-#about-me {
-  /* display: block; */
-  /* margin-left: auto; */
-  /* margin-right: auto; */
 }
 
 #about-me-text {
