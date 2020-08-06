@@ -3533,11 +3533,19 @@ input, select, textarea {
 }
 
 #portrait {
-  width: 50%;
+  width: 75%;
 }
 
 #about-me {
   /* display: block; */
   /* margin-left: auto; */
   /* margin-right: auto; */
+}
+
+#about-me-text {
+  width: 67%;
+}
+
+#about-me-pic {
+  width: 33%;
 }
