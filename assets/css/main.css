@@ -2285,7 +2285,7 @@ input, select, textarea {
 		}
 
 		.icon > .label {
-			display: none;
+			/* display: none; */
 		}
 
 		.icon:before {
@@ -3540,4 +3540,28 @@ input, select, textarea {
 
 #about-me-pic {
   width: 33%;
+}
+
+/* Tooltips */
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
+}
+
+.tooltip .tooltip-text {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 6px;
+  position: absolute;
+  z-index: 1;
+}
+
+.tooltip:hover .tooltip-text {
+  visibility: visible;
 }
