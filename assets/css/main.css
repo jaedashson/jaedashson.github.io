@@ -3580,3 +3580,7 @@ input, select, textarea {
   display: flex;
   flex-direction: column;
 } */
+
+.icon-label {
+  display: block;
+}
